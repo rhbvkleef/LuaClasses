@@ -1,3 +1,6 @@
 local Motorbike = require "motorbike"
+local HondaRebel = Motorbike("HondaRebel")
 
-return Motorbike("HondaRebel")
+HondaRebel.beautyFactor = 99
+
+return HondaRebel

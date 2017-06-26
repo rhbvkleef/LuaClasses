@@ -1,3 +1,7 @@
 local Car = require "car"
 
-return Car("ToyotaAvalon")
+local ToyotaAvalon = Car("ToyotaAvalon")
+
+ToyotaAvalon.beautyFactor = 10
+
+return ToyotaAvalon

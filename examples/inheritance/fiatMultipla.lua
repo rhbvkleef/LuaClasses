@@ -1,3 +1,7 @@
 local Car = require "car"
 
-return Car("FiatMultipla") -- I am honestly ashamed of including such a horrendous thing in my projects...
+local FiatMultipla = Car("FiatMultipla") -- I am honestly ashamed of including such a horrendous thing in my projects...
+
+FiatMultipla.beautyFactor = -150
+
+return FiatMultipla -- Hopefully to the store?

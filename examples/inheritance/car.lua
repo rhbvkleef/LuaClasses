@@ -1,3 +1,7 @@
 local Vehicle = require "vehicle"
 
-return Vehicle("Car")
+local Car = Vehicle("Car")
+
+Car.wheels = 4
+
+return Car
