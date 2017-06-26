@@ -1,0 +1,3 @@
+local Car = require "car"
+
+return Car("FiatMultipla") -- I am honestly ashamed of including such a horrendous thing in my projects...

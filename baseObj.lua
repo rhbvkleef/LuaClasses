@@ -64,6 +64,7 @@ function BaseObj:applyTo(obj)
         end
     end
     obj:updateObject()
+    return obj
 end
 
 function BaseObj:typeof(test)
